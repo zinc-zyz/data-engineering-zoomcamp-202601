@@ -1,4 +1,13 @@
 *.parquet
+*.json
+
+# Week 1 Terraform files with secrets
+week-1-tutorial-archive/terraform/variables.tf
+week-1-tutorial-archive/terraform/keys/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.terraform
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
