@@ -18,7 +18,7 @@ docker run --rm python:3.13 pip --version
 **Question:** What's the version of pip in the python:3.13 image?
 
 **docker-compose.yaml services:**
-- Postgres service name: `pgdatabase`
+- Postgres service name: `db`
 - Postgres internal port: `5432`
 
 **Explanation:**
