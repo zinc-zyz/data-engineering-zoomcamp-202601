@@ -8,7 +8,7 @@ Make sure to have `06_gcp_kv.yaml` set for the environment vairables (e.g. GCP P
 - GCP Project ID: `sample-project`
 - GCP Location: `asia-southeast2`
 - GCS Bucket Name: `sample-bucket` (it should be globally unique)
-- BigQuery Dataset Name: `sample-dataset`
+- BigQuery Dataset Name: `sample_dataset`
 
 ## Question 1
 
@@ -28,7 +28,7 @@ The format of the file is as shown: `"{{inputs.taxi}}_tripdata_{{trigger.date | 
 
 ```sql
 SELECT COUNT(*) AS total_rows
-FROM `zy-int-stg.zoomcamp_tutorial_dataset.yellow_tripdata`
+FROM `sample-project.sample_dataset.yellow_tripdata`
 WHERE filename LIKE '%2020%'
 ```
 
@@ -38,7 +38,7 @@ WHERE filename LIKE '%2020%'
 
 ```sql
 SELECT COUNT(*) AS total_rows
-FROM `zy-int-stg.zoomcamp_tutorial_dataset.green_tripdata`
+FROM `sample-project.sample_dataset.green_tripdata`
 WHERE filename LIKE '%2020%'
 ```
 
