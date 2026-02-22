@@ -6,3 +6,7 @@ This repository contains coursework and practical exercises from the Data Engine
 
 - **Week-1**: Data ingestion fundamentals with Docker, Postgres, and local pipeline development
 - **Week-2**: Workflow orchestration using Prefect flows and cloud integration
+- **Week-3**: Data Warehouse using BigQuery
+- **Week-4**: dbt Data Transformation 
+- **Week-5**: Data Platform Bruin in building data pipelines using AI Agent
+

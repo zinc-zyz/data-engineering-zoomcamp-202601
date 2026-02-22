@@ -1,3 +1,0 @@
-*.json
-.env_encoded
-06_gcp_kv.yaml

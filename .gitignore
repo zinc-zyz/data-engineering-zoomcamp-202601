@@ -1,13 +1,16 @@
 *.parquet
 *.json
 
-# Week 1 Terraform files with secrets
-terraform/variables.tf
+week-1-tutorial/terraform/variables.tf
 terraform/keys/
 *.tfstate
 *.tfstate.backup
 .terraform.lock.hcl
 .terraform
+
+06_gcp_kv.yaml
+service-account.json
+.env_encoded
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
